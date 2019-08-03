@@ -19,7 +19,7 @@
 npm install -g react-native-cli
 ```
 
-Navigate to "d:\xampp\htdocs" folder and create a new folder, "reactnative" and change my folder to it.
+Navigate to "d:\xampp\htdocs" folder and create a new folder, "reactnative" and change to the folder.
 
 ```
 mkdir reactnative
@@ -30,3 +30,15 @@ Now, I am going to create a React Native app by using the following command,
 ```
 react-native init albums
 ```
+
+## Starting Android Studio
+
+On the first run, Android Studio tries to import settings from previous installation. Do not import anything.
+
+It starts a Setup Wizard. 
+
+Choose "Standard" as Install Type.
+Choose default "Light" theme as "Select UI Theme".
+In "Verify Settings" wizard page, Android Studio will download and install Android SDK. Ddefault SDK path is "**C:\Users\<PC-NAME>\AppData\Local\Android\Sdk**".
+
+It takes almost 12 minutes to download the SDK over 2Mbps connection.
