@@ -42,4 +42,18 @@ Choose "Standard" as Install Type.
 Choose default "Light" theme as "Select UI Theme".
 In "Verify Settings" wizard page, Android Studio will download and install Android SDK. Ddefault SDK path is "**C:\Users\<PC-NAME>\AppData\Local\Android\Sdk**".
 
-It takes almost 15 minutes to download the SDK (Android SDK Tools (revision: 26.1.1)) over 2Mbps connection.
+It takes almost **1 Hour** to download Android SDK Tools, Android SDK Platform-Tools, Emulator, Build Tools, Haxm, Platform, etc. over 2Mbps connection.
+
+Unfortunately, I had a Core2Duo PC which does not support Hardware Virtualization. As a result, I got the following error messages,
+
+```
+Unable to install Intel HAXM
+Your CPU does not support VT-x.
+Unfortunately, your computer does not support hardware accelerated virtualization.
+Here are some of your options:
+ 1) Use a physical device for testing
+ 2) Develop on a Windows/OSX computer with an Intel processor that supports VT-x and NX
+ 3) Develop on a Linux computer that supports VT-x or SVM
+ 4) Use an Android Virtual Device based on an ARM system image
+   (This is 10x slower than hardware accelerated virtualization)
+```
