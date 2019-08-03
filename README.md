@@ -8,7 +8,8 @@
 4. Install Android Studio and SDK (https://developer.android.com/studio) - 971MB
 5. Command line tools only (https://developer.android.com/studio/index.html#downloads)
 
-**Note:** Android SDK is already included in Android Studio .exe installer.
+**Note:** Android SDK is NOT included in Android Studio .exe installer. AS downloads the SDK on the first run.
+
 **Additional Reading**
 - How to install the Android SDK on Windows, Mac and Linux (https://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial)
 - Android IDE and SDK: How to Install and Get Started (https://www.ntu.edu.sg/home/ehchua/programming/android/android_howto.html)
@@ -31,7 +32,7 @@ Now, I am going to create a React Native app by using the following command,
 react-native init albums
 ```
 
-## Starting Android Studio
+## Starting Android Studio on the first time
 
 On the first run, Android Studio tries to import settings from previous installation. Do not import anything.
 
@@ -41,4 +42,4 @@ Choose "Standard" as Install Type.
 Choose default "Light" theme as "Select UI Theme".
 In "Verify Settings" wizard page, Android Studio will download and install Android SDK. Ddefault SDK path is "**C:\Users\<PC-NAME>\AppData\Local\Android\Sdk**".
 
-It takes almost 12 minutes to download the SDK over 2Mbps connection.
+It takes almost 15 minutes to download the SDK (Android SDK Tools (revision: 26.1.1)) over 2Mbps connection.
