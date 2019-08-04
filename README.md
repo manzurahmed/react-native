@@ -66,3 +66,7 @@ Here are some of your options:
 - "System Image" screen will appear. I selected "Nougat" to download and install it. "Nougat" system image is 928 MB and takes about 1 hour and 30 minutes to download over 2Mbps Internet connection.
 
 Let Android Studio download and complete the component installation.
+
+When Nougat installation finishes, select it and Press "Next".
+On the next screen, "Verify Configuration, keep every thing unchanged as prescribed by Android Studio and press "Finish".
+
