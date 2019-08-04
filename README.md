@@ -60,8 +60,6 @@ Here are some of your options:
 
 ## Create Virtual Device
 
-1. Create Virtual Device
-
 - Click on "Tools" -> "ADM Manager" and click on "+Create Virtual Device".
 - A form will appear. Select "Next 2" having screen size of 5 inches.
 - Click Next.
