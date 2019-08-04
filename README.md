@@ -57,3 +57,14 @@ Here are some of your options:
  4) Use an Android Virtual Device based on an ARM system image
    (This is 10x slower than hardware accelerated virtualization)
 ```
+
+## Create Virtual Device
+
+1. Create Virtual Device
+
+- Click on "Tools" -> "ADM Manager" and click on "+Create Virtual Device".
+- A form will appear. Select "Next 2" having screen size of 5 inches.
+- Click Next.
+- "System Image" screen will appear. I selected "Nougat" to download and install it. "Nougat" system image is 928 MB and takes about 1 hour and 30 minutes to download over 2Mbps Internet connection.
+
+Let Android Studio download and complete the component installation.
