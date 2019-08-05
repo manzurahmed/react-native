@@ -70,3 +70,4 @@ Let Android Studio download and complete the component installation.
 When Nougat installation finishes, select it and Press "Next".
 On the next screen, "Verify Configuration, keep every thing unchanged as prescribed by Android Studio and press "Finish".
 
+!(Create New Device)[https://github.com/manzurahmed/react-native/blob/master/create_new_device.jpg]
